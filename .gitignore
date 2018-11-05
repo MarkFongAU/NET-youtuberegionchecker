@@ -1,0 +1,3 @@
+# Ignore .idea and .vs
+/.vs
+/.idea

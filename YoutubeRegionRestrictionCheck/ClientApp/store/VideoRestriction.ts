@@ -69,6 +69,7 @@ export const reducer: Reducer<VideoRestrictionState> = (state: VideoRestrictionS
         case 'REQUEST_VIDEO_RESTRICTION_STATUS':
             console.log("Are we here to request ?");
             return {
+                ...state,
                 videoUrl: action.videoUrl,
                 status: state.status,
                 isLoading: true
@@ -80,6 +81,7 @@ export const reducer: Reducer<VideoRestrictionState> = (state: VideoRestrictionS
                 console.log("Are we here to receive ?");
                 console.log(action.status);
                 return {
+                    ...state,
                     videoUrl: action.videoUrl,
                     status: action.status,
                     isLoading: false

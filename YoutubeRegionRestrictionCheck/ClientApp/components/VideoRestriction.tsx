@@ -41,8 +41,8 @@ class VideoRestriction extends React.Component<VideoRestrictionProps, {}> {
     }
 
     private renderInput() {
-        let videoUrl1 = 'YRCdaIzMOVs';
-        let videoUrl2 = 'Z9BHc8_I6UA';
+        let videoUrl1 = 'Z9BHc8_I6UA';
+        let videoUrl2 = 'YRCdaIzMOVs';
         // return <form action={`/videorestriction/${videoUrl}`}>
         //     <div className="form-group">
         //         <label htmlFor='videoURL'>Video URL:</label>
@@ -67,7 +67,7 @@ class VideoRestriction extends React.Component<VideoRestrictionProps, {}> {
             </tr>
             </thead>
             <tbody>
-            {console.log(this.props.status)}
+            {/*console.log(this.props.status)*/}
             {/*{this.props.status.map(status =>*/}
                 {/*<tr key={status.id}>*/}
                     {/*<td>{status.title}</td>*/}

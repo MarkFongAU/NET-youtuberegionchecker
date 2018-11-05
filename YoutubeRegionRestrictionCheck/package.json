@@ -14,7 +14,7 @@
     "@types/webpack": "2.2.15",
     "@types/webpack-env": "1.13.0",
     "aspnet-prerendering": "^3.0.1",
-    "aspnet-webpack": "^2.0.1",
+    "aspnet-webpack": "^2.0.3",
     "aspnet-webpack-react": "^3.0.0",
     "awesome-typescript-loader": "3.2.1",
     "bootstrap": "3.3.7",
@@ -40,5 +40,8 @@
     "webpack": "2.5.1",
     "webpack-hot-middleware": "2.18.2",
     "webpack-merge": "4.1.0"
+  },
+  "dependencies": {
+    "redux-logger": "^3.0.6"
   }
 }
